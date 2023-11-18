@@ -1,0 +1,39 @@
+# Hey this is a YAML file
+my-course : 'YAML_MLOPS'
+version : 1.0
+price : 99
+is_public : true
+release_date : 2023-11-19  # default date format is YYYY-MM-DD
+pre_enroll: null
+
+# both type of writing works...intendation and list
+category:
+ - AWS # always leave a single space, then start writing
+ - MLOPS
+ - MLOPS certification
+
+course_dev : ['mohit','rohan']
+
+# both type of writing works...intendation and list
+
+dev_details : 
+ - name : 'mohit' 
+   email : 'mohit@abc'
+   role : 'developer'
+ - name : 'rohan'
+   email : 'rohan@abx'
+   role : 'developer'
+ - {name : 'akshay',email : 'aksahy@bvh', role : 'developer'}
+
+# single Line string:
+short_description : >
+ This is a course for
+ MLOPS developer
+ Certifcation
+
+# multi line string :
+detail_description : |
+ This is a course has been
+ created for industry expert.
+ Hope you like it.
+
